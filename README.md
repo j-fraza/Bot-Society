@@ -1,4 +1,4 @@
-# Bot Registry
+# Bot Society
 
 ## Available Scripts
 
