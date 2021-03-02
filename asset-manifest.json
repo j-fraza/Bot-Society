@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Bot-Society/static/css/main.5490a360.chunk.css",
+    "main.js": "/Bot-Society/static/js/main.8457f99a.chunk.js",
+    "main.js.map": "/Bot-Society/static/js/main.8457f99a.chunk.js.map",
+    "runtime-main.js": "/Bot-Society/static/js/runtime-main.98343fe3.js",
+    "runtime-main.js.map": "/Bot-Society/static/js/runtime-main.98343fe3.js.map",
+    "static/css/2.31461e4f.chunk.css": "/Bot-Society/static/css/2.31461e4f.chunk.css",
+    "static/js/2.0805cf39.chunk.js": "/Bot-Society/static/js/2.0805cf39.chunk.js",
+    "static/js/2.0805cf39.chunk.js.map": "/Bot-Society/static/js/2.0805cf39.chunk.js.map",
+    "static/js/3.a0783b41.chunk.js": "/Bot-Society/static/js/3.a0783b41.chunk.js",
+    "static/js/3.a0783b41.chunk.js.map": "/Bot-Society/static/js/3.a0783b41.chunk.js.map",
+    "index.html": "/Bot-Society/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/Bot-Society/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.5490a360.chunk.css.map": "/Bot-Society/static/css/main.5490a360.chunk.css.map",
+    "static/js/2.0805cf39.chunk.js.LICENSE.txt": "/Bot-Society/static/js/2.0805cf39.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98343fe3.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.0805cf39.chunk.js",
+    "static/css/main.5490a360.chunk.css",
+    "static/js/main.8457f99a.chunk.js"
+  ]
+}
