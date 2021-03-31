@@ -5,18 +5,31 @@ import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundry';
 import '../containers/App.css';
 
+import { useDispatch, useSelector } from 'react-redux';
+import { setSearchField, requestRobots } from '../actions';
+
 function App() {
-    const [robots, setRobots] = useState([])
-    const [searchField, setSearchField] = useState('')
+    const [setRobots] = useState([]);
+    // const [searchField, setSearchField] = useState('');
+    const dispatch = useDispatch();
+
+    const { searchField } = useSelector(
+        (state) => state.requestRobots
+    )
 
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/users')
             .then(response => response.json())
             .then(users => {setRobots(users)});
+        onRequestRobots();
     }, [])
 
     const onSearchChange = (event) => {
-        setSearchField(event.target.value);
+        dispatch(setSearchField(event.target.value));
+    }
+
+    const onRequestRobots = () => {
+        dispatch(requestRobots())
     }
 
     const filteredRobots = robots.filter(robot => {
